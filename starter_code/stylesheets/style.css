@@ -5,3 +5,33 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+/*Iteration 1 | Extra Small Screen (width < 768px)*/ /* default iPad screens */
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+/*Iteration 2 | Small Screen (961px > width > 767px)*/
+@media only screen and (min-width: 767px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+/*Iteration 3 | Medium Screen (1024px > width > 960px)*/ /* styles for browsers larger than 960px; */
+@media only screen and (min-width: 960px) {
+  p {
+    font-size: 1.7rem;
+    line-height: 1.7;
+  }
+}
+
+/*Iteration 4 | Large Screen (width > 1200px)*/ /* styles for browsers larger than 1440px; */
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 2rem;
+    line-height: 2;
+  }
+}
